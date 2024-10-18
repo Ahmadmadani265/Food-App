@@ -45,10 +45,9 @@ class _ProductGirdViewItemState extends State<ProductGirdViewItem> {
             ),
             const SizedBox(height: 4),
             Text(
-              // maxLines: 2,
-              // overflow: TextOverflow.ellipsis,
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
               widget.product.details,
-
               style: AppStyles.dmSans12Regular.copyWith(
                 fontSize: 12,
               ),
